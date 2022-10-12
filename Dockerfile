@@ -1,4 +1,4 @@
 FROM nginx
-RUN nginx --version
+CMD ["ls"]
 EXPOSE 8080
 EXPOSE 80
