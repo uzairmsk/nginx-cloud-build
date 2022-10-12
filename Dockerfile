@@ -1,4 +1,3 @@
 FROM nginx
-RUN cat /var/www/html/main.html
-EXPOSE 8080
+COPY main.html /home/
 EXPOSE 80
