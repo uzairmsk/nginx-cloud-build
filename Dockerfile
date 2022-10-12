@@ -1,4 +1,4 @@
 FROM nginx
 RUN echo "hello"
-RUN sudo apt-get update
+EXPOSE 8080
 EXPOSE 80
