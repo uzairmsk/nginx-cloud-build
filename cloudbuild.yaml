@@ -1,0 +1,5 @@
+steps:
+  - name: 'gcr.io/cloud-builders/docker'
+    args: [ 'build', '-t', 'eu.gcr.io/agile-polymer-364709/nginx-custom-image:blue', '.' ]
+  
+images: [eu.gcr.io/agile-polymer-364709/nginx-custom-image:blue]
